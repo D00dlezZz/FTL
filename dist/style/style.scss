@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        background-color: #343539;
+        font-family: Helvetica;
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-left: 170px;
+
+        .title {
+            font-weight: bold;
+            font-size: 56px;
+            line-height: 64px;
+        }
+
+        .route {
+            padding-top: 40px;
+
+            .route__title {
+                display: flex;
+                align-items: center;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+
+                .circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 8px;
+                    background-color: #EF483E;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 99999999px;
+                }
+            }
+        }
+
+    }
+}
