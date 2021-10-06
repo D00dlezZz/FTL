@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,49 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>FTL</title>
 </head>
+
 <body>
-   <h1 class="title">FTL: Прямая машина</h1>
+    <h1 class="title">FTL: Прямая машина</h1>
 
-   <section class="route">
-       <h3 class="route__title"><span class="circle">1</span>Маршрут</h3>
-       <div class="ui input focus">
+    <section class="route">
+        <h3 class="route__title title-style"><span class="circle">1</span>Маршрут</h3>
+        <div class="route__block">
+            <p class="route__label label">Откуда</p>
+            <input type="text" placeholder="" class="route__input">
+        </div>
+        <div class="route__block">
+            <p class="route__label">Куда</p>
+            <input type="text" placeholder="" class="route__input">
+        </div>
+    </section>
+    <section class="transport">
+        <h3 class="transport__title title-style"><span class="circle">2</span>Транспорт</h3>
 
-        <p>Откуда</p>   
-        <input type="text" placeholder="">
+        <div class="transport__block">
+            <form>
+                <p class="transport__label">Грузоподъёмность</p>
+                <select class="transport__select">
+                    <option disabled>Выберите вариант</option>
+                    <option>Вариант 1</option>
+                    <option>Вариант 2</option>
+                    <option>Вариант 3</option>
+                </select></p>
+            </form>
 
-        <p>Куда</p>   
-        <input type="text" placeholder="">
-      </div>
-   </section>
-   <section class="transport"></section>
-   <section class="cargo"></section>
-   <section class="time"></section>
+            <form>
+                <p class="transport__label">Способ погрузки</p>
+                <select class="transport__select">
+                    <option disabled>Выберите вариант</option>
+                    <option>Вариант 1</option>
+                    <option>Вариант 2</option>
+                    <option>Вариант 3</option>
+                </select></p>
+            </form>
+
+        </div>
+    </section>
+    <section class="cargo"></section>
+    <section class="time"></section>
 </body>
+
 </html>

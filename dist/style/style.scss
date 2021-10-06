@@ -10,36 +10,78 @@
         padding-top: 40px;
         padding-left: 170px;
 
+        .circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            background-color: #EF483E;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            width: 24px;
+            height: 24px;
+            border-radius: 99999999px;
+        }
+
         .title {
             font-weight: bold;
             font-size: 56px;
             line-height: 64px;
         }
 
-        .route {
-            padding-top: 40px;
+         section {   
 
-            .route__title {
+             padding-top: 40px;
+
+            .title-style {
                 display: flex;
                 align-items: center;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 24px;
                 line-height: 30px;
+            }
 
-                .circle {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-right: 8px;
-                    background-color: #EF483E;
+            .route__block {
+                margin-top: 16px;
+
+                .route__label {
                     font-style: normal;
-                    font-weight: bold;
-                    font-size: 16px;
-                    line-height: 20px;
-                    width: 24px;
-                    height: 24px;
-                    border-radius: 99999999px;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 16px;
+                    padding-bottom: 8px;
+                }
+
+                .route__input {
+                    height: 44px;
+                    width: 728px;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        .transport {
+            .transport__block {
+                display: flex;
+                padding-top: 16px;
+                
+                form {
+                    padding-right: 12px;
+                    .transport__label {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 16px;
+                        padding-bottom: 8px;
+                    }
+                    .transport__select {
+                        height: 44px;
+                        width: 172px;
+                        padding-left: 10px;
+                    }
                 }
             }
         }
