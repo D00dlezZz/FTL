@@ -83,15 +83,18 @@
             </div>
             <div class="cargo__temperature">
                 <p><input type="checkbox" id="checkbox" value="false">Требуется температурный режим</p>
-                <form class="check">
-                    <p class="cargo__label">Объявленная ценность, ₽</p>
-                    <select class="cargo__select" required>
-                        <option value="" disabled selected value="">> 1</option>
-                        <option value="value1">Вариант 1</option>
-                        <option value="value2">Вариант 2</option>
-                        <option value="value3">Вариант 3</option>
-                    </select></p>
+            
+                <div class="check">
+                    
+                <form>
+                    <p class="cargo__label">От, °C</p>
+                    <input type="number" placeholder="-20">
                 </form>
+                <form>
+                    <p class="cargo__label">До, °C</p>
+                    <input type="number" placeholder="+23">
+                </form>
+                </div>
             </div>
         </div>
     </section>
