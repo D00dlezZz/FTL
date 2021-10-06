@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>FTL</title>
 </head>
+
 <body>
-    
+    <h1 class="title">FTL: Прямая машина</h1>
+
+    <section class="route">
+        <h3 class="route__title title-style"><span class="circle">1</span>Маршрут</h3>
+        <div class="route__block">
+            <p class="route__label label">Откуда</p>
+            <input type="text" placeholder="" class="route__input">
+        </div>
+        <div class="route__block">
+            <p class="route__label">Куда</p>
+            <input type="text" placeholder="" class="route__input">
+        </div>
+    </section>
+    <section class="transport">
+        <h3 class="transport__title title-style"><span class="circle">2</span>Транспорт</h3>
+        <div class="transport__block">
+            <form>
+                <p class="transport__label">Грузоподъёмность</p>
+                <select class="transport__select" required>
+                    <option disabled selected >Не выбрана</option>
+                    <option>Вариант 1</option>
+                    <option>Вариант 2</option>
+                    <option>Вариант 3</option>
+                </select></p>
+            </form>
+
+            <form>
+                <p class="transport__label">Способ погрузки</p>
+                <select class="transport__select" required>
+                    <option value="" disabled selected >Не выбран</option>
+                    <option value="value1">Вариант 1</option>
+                    <option value="value2">Вариант 2</option>
+                    <option value="value3">Вариант 3</option>
+                </select></p>
+            </form>
+
+        </div>
+    </section>
+    <section class="cargo">
+        <h3 class="cargo__title title-style"><span class="circle">3</span>Груз</h3>
+        <div class="cargo__container">
+            <form>
+                <p class="cargo__label">Тип груза</p>
+                <select class="cargo__select-type" required>
+                    <option disabled selected  value="">Не выбран</option>
+                    <option value="value1">Вариант 1</option>
+                    <option value="value2">Вариант 2</option>
+                    <option value="value3">Вариант 3</option>
+                </select></p>
+            </form>
+            <div class="cargo__block">
+                <form>
+                    <p class="cargo__label">Класс опасности</p>
+                    <select class="cargo__select" required>
+                        <option disabled selected value="">Не выбран</option>
+                        <option value="value1">Вариант 1</option>
+                        <option value="value2">Вариант 2</option>
+                        <option value="value3">Вариант 3</option>
+                    </select></p>
+                </form>
+
+                <form>
+                    <p class="cargo__label">Объявленная ценность, ₽</p>
+                    <select class="cargo__select" required>
+                        <option value="" disabled selected value="">> 1</option>
+                        <option value="value1">Вариант 1</option>
+                        <option value="value2">Вариант 2</option>
+                        <option value="value3">Вариант 3</option>
+                    </select></p>
+                </form>
+            </div>
+            <div class="cargo__temperature">
+                <p><input type="checkbox" id="checkbox" value="false">Требуется температурный режим</p>
+            
+                <div class="check">
+                    
+                <form>
+                    <p class="cargo__label">От, °C</p>
+                    <input type="number" placeholder="-20">
+                </form>
+                <form>
+                    <p class="cargo__label">До, °C</p>
+                    <input type="number" placeholder="+23">
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="time">
+        <h3 class="cargo__title title-style"><span class="circle">4</span>Время</h3>
+
+    </section>
+
+    <script src="./index.js"></script>
 </body>
+
 </html>
