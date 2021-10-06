@@ -139,8 +139,15 @@
                         }
                     }
 
-                    .check {
+                    .cargo__hidden {
                         display: none;
+
+                        .cargo__input {
+                            width: 165px;
+                            height: 44px;
+                            margin-right: 12px;
+                            padding-left: 10px;
+                        }
                     }
 
                 }

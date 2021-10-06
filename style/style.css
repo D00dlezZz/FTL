@@ -163,7 +163,14 @@
   width: 24px;
 }
 
-* body .cargo .cargo__container .cargo__temperature .check {
+* body .cargo .cargo__container .cargo__temperature .cargo__hidden {
   display: none;
+}
+
+* body .cargo .cargo__container .cargo__temperature .cargo__hidden .cargo__input {
+  width: 165px;
+  height: 44px;
+  margin-right: 12px;
+  padding-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
