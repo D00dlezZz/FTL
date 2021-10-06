@@ -13,6 +13,14 @@
   padding-left: 170px;
 }
 
+* body input {
+  outline: none;
+}
+
+* body select {
+  outline: none;
+}
+
 * body .circle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +143,7 @@
   padding-left: 10px;
 }
 
-* body .cargo .cargo__container .cargo__btn {
+* body .cargo .cargo__container .cargo__temperature p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,9 +157,13 @@
   line-height: 16px;
 }
 
-* body .cargo .cargo__container .cargo__btn input {
+* body .cargo .cargo__container .cargo__temperature p input {
   margin-right: 12px;
   height: 24px;
   width: 24px;
+}
+
+* body .cargo .cargo__container .cargo__temperature .check {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

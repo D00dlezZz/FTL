@@ -10,6 +10,9 @@
         padding-top: 40px;
         padding-left: 170px;
 
+        input {outline:none;};
+        select {outline:none;};
+
         .circle {
             display: flex;
             align-items: center;
@@ -120,20 +123,26 @@
                     }
                 }
 
-                .cargo__btn {
-                    display: flex;
-                    align-items: center;
-                    padding-top: 16px;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 13px;
-                    line-height: 16px;
-
-                    input {
-                        margin-right: 12px;
-                        height: 24px;
-                        width: 24px;
+                .cargo__temperature{  
+                    p {
+                        display: flex;
+                        align-items: center;
+                        padding-top: 16px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 16px;
+                        input {
+                            margin-right: 12px;
+                            height: 24px;
+                            width: 24px;
+                        }
                     }
+
+                    .check {
+                        display: none;
+                    }
+
                 }
 
             }

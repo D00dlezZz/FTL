@@ -29,7 +29,7 @@
             <form>
                 <p class="transport__label">Грузоподъёмность</p>
                 <select class="transport__select" required>
-                    <option disabled selected hidden>Выберите вариант</option>
+                    <option disabled selected >Не выбрана</option>
                     <option>Вариант 1</option>
                     <option>Вариант 2</option>
                     <option>Вариант 3</option>
@@ -39,7 +39,7 @@
             <form>
                 <p class="transport__label">Способ погрузки</p>
                 <select class="transport__select" required>
-                    <option value="" disabled selected hidden>Выберите вариант</option>
+                    <option value="" disabled selected >Не выбран</option>
                     <option value="value1">Вариант 1</option>
                     <option value="value2">Вариант 2</option>
                     <option value="value3">Вариант 3</option>
@@ -54,7 +54,7 @@
             <form>
                 <p class="cargo__label">Тип груза</p>
                 <select class="cargo__select-type" required>
-                    <option disabled selected hidden value="">Выберите вариант</option>
+                    <option disabled selected  value="">Не выбран</option>
                     <option value="value1">Вариант 1</option>
                     <option value="value2">Вариант 2</option>
                     <option value="value3">Вариант 3</option>
@@ -64,7 +64,7 @@
                 <form>
                     <p class="cargo__label">Класс опасности</p>
                     <select class="cargo__select" required>
-                        <option disabled selected hidden value="">Выберите вариант</option>
+                        <option disabled selected value="">Не выбран</option>
                         <option value="value1">Вариант 1</option>
                         <option value="value2">Вариант 2</option>
                         <option value="value3">Вариант 3</option>
@@ -74,17 +74,33 @@
                 <form>
                     <p class="cargo__label">Объявленная ценность, ₽</p>
                     <select class="cargo__select" required>
-                        <option value="" disabled selected hidden value="">Выберите вариант</option>
+                        <option value="" disabled selected value="">> 1</option>
                         <option value="value1">Вариант 1</option>
                         <option value="value2">Вариант 2</option>
                         <option value="value3">Вариант 3</option>
                     </select></p>
                 </form>
             </div>
-            <p class="cargo__btn"><input type="checkbox">Требуется температурный режим</p>
+            <div class="cargo__temperature">
+                <p><input type="checkbox" id="checkbox" value="false">Требуется температурный режим</p>
+                <form class="check">
+                    <p class="cargo__label">Объявленная ценность, ₽</p>
+                    <select class="cargo__select" required>
+                        <option value="" disabled selected value="">> 1</option>
+                        <option value="value1">Вариант 1</option>
+                        <option value="value2">Вариант 2</option>
+                        <option value="value3">Вариант 3</option>
+                    </select></p>
+                </form>
+            </div>
         </div>
     </section>
-    <section class="time"></section>
+    <section class="time">
+        <h3 class="cargo__title title-style"><span class="circle">4</span>Время</h3>
+
+    </section>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
