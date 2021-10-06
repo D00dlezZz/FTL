@@ -352,6 +352,21 @@
     width: 343px;
     padding-left: 10px;
   }
+  * body .transport {
+    padding-top: 40px;
+  }
+  * body .transport .transport__block form .transport__select {
+    width: 165px;
+  }
+  * body .cargo {
+    padding-top: 40px;
+  }
+  * body .cargo .cargo__container .cargo__select-type {
+    width: 343px;
+  }
+  * body .cargo .cargo__container .cargo__block form .cargo__select {
+    width: 165px;
+  }
   * body .time .time__container .time__header {
     width: 343px;
   }

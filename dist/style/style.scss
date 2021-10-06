@@ -290,6 +290,34 @@
                     }
                 }
             }
+            .transport {
+                padding-top: 40px;
+                .transport__block {
+                    form {
+                        .transport__select {
+                            width: 165px;
+                        }
+                    }       
+                }
+            }
+
+            .cargo {
+                padding-top: 40px;
+                .cargo__container {
+                    .cargo__select-type {
+                        width: 343px;
+                    }
+
+                    
+                    .cargo__block {
+                        form {
+                            .cargo__select {
+                                width: 165px;
+                            }
+                        }
+                    }
+                }
+            }
 
             .time {
                 .time__container {
