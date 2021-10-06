@@ -330,4 +330,41 @@
   font-size: 15px;
   line-height: 18px;
 }
+
+@media screen and (max-width: 785px) {
+  * body {
+    margin: 0 auto;
+    width: 375px;
+    padding-left: 16px;
+    padding-top: 40px;
+  }
+  * body .title {
+    font-size: 32px;
+  }
+  * body section {
+    padding-top: 22px;
+  }
+  * body section .route__block {
+    margin-top: 16px;
+  }
+  * body section .route__block .route__input {
+    height: 44px;
+    width: 343px;
+    padding-left: 10px;
+  }
+  * body .time .time__container .time__header {
+    width: 343px;
+  }
+  * body .time .time__container .time__block {
+    width: 343px;
+  }
+  * body .time .time__container .time__comment textarea {
+    width: 343px;
+  }
+  * body .time .info {
+    position: static;
+    margin-top: 40px;
+    width: 343px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

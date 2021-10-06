@@ -261,4 +261,57 @@
         }
 
     }
+
 }
+
+@media screen and (max-width: 785px) {
+
+    * {
+        
+        body {  
+            margin: 0 auto;
+            width: 375px;
+            padding-left: 16px;
+            padding-top: 40px;
+            .title {
+                font-size: 32px;
+            }
+
+            section {
+                
+                padding-top: 22px;
+                .route__block {
+                    margin-top: 16px;
+    
+                    .route__input {
+                        height: 44px;
+                        width: 343px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .time {
+                .time__container {
+                    .time__header {
+                        width: 343px;
+                    }
+                    .time__block {
+                        width: 343px;
+                    }
+                    .time__comment {
+                        textarea {
+                            width: 343px;
+                        }
+                    }
+
+                }
+                .info {
+                    position: static;
+                    margin-top: 40px;
+                    width: 343px;
+                }
+            }
+        }
+    }
+    }
