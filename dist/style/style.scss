@@ -11,7 +11,10 @@
         padding-left: 170px;
 
         input {outline:none;};
+        input::placeholder {color: #CFCFCF;}
         select {outline:none;};
+        select:invalid { color: #CFCFCF; }
+
 
         .circle {
             display: flex;

@@ -17,8 +17,28 @@
   outline: none;
 }
 
+* body input::-webkit-input-placeholder {
+  color: #CFCFCF;
+}
+
+* body input:-ms-input-placeholder {
+  color: #CFCFCF;
+}
+
+* body input::-ms-input-placeholder {
+  color: #CFCFCF;
+}
+
+* body input::placeholder {
+  color: #CFCFCF;
+}
+
 * body select {
   outline: none;
+}
+
+* body select:invalid {
+  color: #CFCFCF;
 }
 
 * body .circle {
